@@ -3,8 +3,8 @@ import path from "path";
 
 export default defineConfig({
   schema: path.join(__dirname, "./src/schema/index.ts"),
-  dialect: "postgresql",
+  dialect: "sqlite",
   dbCredentials: {
-    url: process.env.DATABASE_URL || "postgresql://dummy",
+    url: process.env.DATABASE_URL || "file:./sqlite.db",
   },
 });
