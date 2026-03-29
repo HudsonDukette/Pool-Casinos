@@ -1,7 +1,4 @@
 {
-  "buildCommand": "cd Pool-Casino/artifacts/app && npm run build",
-  "outputDirectory": "Pool-Casino/artifacts/app/.next",
-  "installCommand": "cd Pool-Casino && npm install",
   "framework": "nextjs",
   "rootDirectory": "Pool-Casino/artifacts/app"
 }
