@@ -1,6 +1,6 @@
 {
-  "buildCommand": "cd artifacts/pool-casino && npm run build",
-  "outputDirectory": "artifacts/pool-casino/dist",
-  "installCommand": "npm install",
+  "buildCommand": "cd Pool-Casino/artifacts/app && npm run build",
+  "outputDirectory": "Pool-Casino/artifacts/app/dist",
+  "installCommand": "pnpm install",
   "framework": null
 }
